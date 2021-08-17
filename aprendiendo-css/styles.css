@@ -1,5 +1,7 @@
 /*
     SELECTORES: Recordar que se leen de Arriba abajo(Sobreescribe).
+    Cuando mas especifica es la regla mas prioridad tiene #saludo h1{...}
+    color: red !important -> no importa el orden va ser prioridad y pintara el rojo.
 */
 
 /*SELECTOR UNIVERSAL*/
@@ -78,4 +80,9 @@ input[type="submit"]{
     text-transform: uppercase;
     border: 1px solid black;
     cursor: pointer;
+}
+
+/*SELECTOR HIJO*/
+#menu > li > a {
+    color: red;
 }
