@@ -52,3 +52,30 @@ footer a {
     border: 1px solid black;
     font-size: 25px;
 }
+
+/*SELECTOR DE ATRIBUTO*/
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+#usuario form *{
+    display: block;
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    /*se puede aplicar en varias proporciones %, px, etc*/
+    width: 300px;
+}
+input[type="submit"]{
+    background: green;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
