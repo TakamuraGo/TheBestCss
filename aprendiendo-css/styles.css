@@ -1,5 +1,5 @@
 /*
-    SELECTORES
+    SELECTORES: Recordar que se leen de Arriba abajo(Sobreescribe).
 */
 
 /*SELECTOR UNIVERSAL*/
@@ -22,3 +22,15 @@ a{
 footer a {
     color: red;
 }
+
+/*SELECTOR DE ID*/
+#descripcion{
+    border: 5px solid black;
+    padding: 15px;
+}
+
+    /*Compartir estilos aplica para etiqueta, id, clase*/
+    #descripcion,
+    #titulo{
+        border: dashed yellow;
+    }
