@@ -8,6 +8,17 @@ h1{
     font-family: 'Dancing Script', cursive;
     text-transform: uppercase;
     font-size: 45px;
+
+    /*Colores - colocando color picker en google nos da una buena herramienta*/ 
+    /*Colores del sistema*/
+    /* https://www.w3schools.com/cssref/css_colors.asp */
+    color: mediumpurple;
+    /*Colores Hexadecimales - Empiezan con un #*/
+    color: #eeeeee49;
+    /*Colores RGB - Combinacion de Red - Green - Blue*/
+    color: rgb(255, 255, 107);
+    /*Colores RGBA - en esto recibe un 4to parametro de transpariencia*/
+    color: rgba(255, 122, 107,0.5);
 }
 
 h3{
