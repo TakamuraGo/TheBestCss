@@ -1,12 +1,18 @@
-/* 1em -> 16px*/
+/* 2DA forma -Fuente personalida */
+@font-face {
+    font-family: Shadows_Into_LightCustom;
+    src: url(fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf);
+}
 h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    font-size: 45px;
 }
 
 h3{
-    font-family: "Comic sans-serif";
-    font-size: 25px;
+    font-family: Shadows_Into_LightCustom,"Comic sans-serif";
+    font-size: 35px;
     font-weight: lighter;
 }
 
