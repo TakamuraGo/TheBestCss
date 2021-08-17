@@ -34,3 +34,21 @@ footer a {
     #titulo{
         border: dashed yellow;
     }
+
+/*SELECTOR DE CLASE*/
+.parrafo{
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+}
+.parrafo1, .parrafo3{
+    background-color: green;
+    color: white;
+}
+.parrafo3{
+    background-color: orange;
+    color: black;
+    border: 1px solid black;
+    font-size: 25px;
+}
