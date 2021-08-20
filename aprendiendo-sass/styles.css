@@ -10,4 +10,31 @@ h1 {
 p {
   color: rgba(255, 0, 0, 0.39);
 }
+
+.caja {
+  border: 1px solid black;
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+
+.caja h1 {
+  color: blue;
+}
+
+.caja p {
+  color: green;
+}
+
+.caja .info {
+  font-size: 10px;
+}
+
+.caja .info .author {
+  font-size: 15px;
+  color: orange;
+  font-weight: bold;
+}
 /*# sourceMappingURL=styles.css.map */
