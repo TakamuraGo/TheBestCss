@@ -73,3 +73,12 @@ p{
     color:green;
     border-color: green;
 }
+
+//Operadores
+$cajaop:200px;
+$wrap: 900px;
+
+.caja{
+    width: $cajaop / $wrap * 100%;
+    // width: 15px + 20px;
+}
