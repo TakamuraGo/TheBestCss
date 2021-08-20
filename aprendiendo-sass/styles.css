@@ -70,6 +70,10 @@ p {
 }
 
 h1 {
+  color: blue;
+}
+
+h1 {
   text-decoration: underline;
 }
 
