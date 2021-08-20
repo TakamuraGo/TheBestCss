@@ -50,3 +50,26 @@ p{
 .listado{
     @include crearBordes(green,5px,brown);
 }
+
+//Herencia
+%alert-normal{
+    border: 1px solid gray;
+    background-color: #eee;
+    color: gray;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+.alert{
+    @extend %alert-normal;
+}
+.alert-danger{
+    @extend %alert-normal;
+    color:red;
+    border-color: red;
+}
+.alert-success{
+    @extend %alert-normal;
+    color:green;
+    border-color: green;
+}
